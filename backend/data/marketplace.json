@@ -1,0 +1,30 @@
+{
+  "vendors": [
+    {
+      "name": "dark_tools",
+      "rating": 4.7,
+      "trusted": true
+    },
+    {
+      "name": "privacy_books",
+      "rating": 4.4,
+      "trusted": false
+    }
+  ],
+  "items": [
+    {
+      "id": "itm001",
+      "title": "OSINT Training Manual (PDF)",
+      "price_btc": 0.03,
+      "vendor": "privacy_books",
+      "escrow": true
+    },
+    {
+      "id": "itm002",
+      "title": "CTF Practice Lab Access",
+      "price_btc": 0.08,
+      "vendor": "dark_tools",
+      "escrow": true
+    }
+  ]
+}
