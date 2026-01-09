@@ -54,11 +54,11 @@ uvicorn main:app
 ## Screenshots
 
 ### Tor Connected Session
-![Tor Connected]('Screenshot 2026-01-09 at 01-21-53 Onion Browser Simulator.png')
+![Tor Connected](screenshots/tor-connected.png)
 
 ### Marketplace Onion Service
-![Marketplace]('Screenshot 2026-01-09 at 01-22-10 Onion Browser Simulator.png')
+![Marketplace](screenshots/Marketplace.png)
 
 ### Forum Onion Service
-![Forum](screenshots-forum.png)
+![Forum](screenshots/forum.png)
 
