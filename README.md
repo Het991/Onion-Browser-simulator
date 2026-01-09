@@ -57,7 +57,7 @@ uvicorn main:app
 ![Tor Connected](screenshots/tor-connected.png)
 
 ### Marketplace Onion Service
-![Marketplace](screenshots/Marketplace.png)
+![Marketplace](screenshots/marketplace.png)
 
 ### Forum Onion Service
 ![Forum](screenshots/forum.png)
