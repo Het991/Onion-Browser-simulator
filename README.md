@@ -1,28 +1,50 @@
 # Onion Browser Simulator
 
-An educational Tor Onion Browser Simulator built to demonstrate how Tor sessions,
-identity rotation, OPSEC risks, and onion services work in a safe environment.
+An educational **Tor Onion Browser Simulator** built to demonstrate how Tor sessions,
+identity rotation, OPSEC risks, and onion services operate in a safe and controlled
+environment.
 
-## Features
-- Tor session simulation (connect, rotate identity, disconnect)
-- Circuit visualization (entry, middle, exit nodes)
-- OPSEC warnings based on user behavior
+This project focuses on **security concepts and system behavior**, not real Tor usage
+or illegal activity.
+
+---
+
+## 🚀 Features
+
+- Simulated Tor session lifecycle (connect, rotate identity, disconnect)
+- Tor circuit visualization (entry, middle, exit nodes)
+- OPSEC warnings based on user behavior and navigation patterns
 - Integrated onion services:
-  - Marketplace (reputation, escrow, risk modeling)
-  - Forum (anonymous discussions, timing correlation concepts)
-  - Mail (identity-bound encrypted messaging simulation)
-- Single Page Application (SPA) frontend
+  - **Marketplace** — reputation, escrow, and risk modeling
+  - **Forum** — anonymous discussions and timing-correlation concepts
+  - **Mail** — identity-bound encrypted messaging (simulated)
+- Single Page Application (SPA) architecture for seamless navigation
 
-## Tech Stack
-- FastAPI (Python)
-- Vanilla JavaScript
-- HTML / CSS
+---
 
-## Purpose
-This project is for **educational and demonstration purposes only**.
-No real Tor traffic or illegal activity is involved.
+## 🛠 Tech Stack
 
-## How to Run
+- **Backend:** FastAPI (Python)
+- **Frontend:** Vanilla JavaScript, HTML, CSS
+- **Architecture:** REST API + SPA frontend
+
+---
+
+## 🎯 Project Purpose
+
+This project is designed for **educational and demonstration purposes only**.
+
+It helps explain:
+- How Tor identities behave across services
+- Why identity reuse is risky
+- How OPSEC mistakes can lead to correlation attacks
+- How onion services differ from surface web applications
+
+No real Tor traffic is generated.
+
+---
+
+## ▶️ How to Run
 
 ### Backend
 ```bash
